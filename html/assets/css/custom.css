@@ -1,0 +1,27 @@
+.features li .count {
+    float: left;
+    width: 68px;
+    min-height: 30px !important;
+    background: none !important;
+}
+
+.company-logo {
+	max-width: 125px;
+}
+
+.header-area.header-sticky .logo {
+    margin-top: 10px !important;
+}
+
+@media (max-width: 991px){
+	.company-logo {
+		max-width: 125px;
+		margin-top: -5px !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+    .welcome-area {
+		height: 100vh;
+	}
+}
